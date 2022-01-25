@@ -36,7 +36,7 @@ app.use(
   })
 );
 
-router.get("/", async (req, res) => {
+app.get("/", async (req, res) => {
   try {
     return res.render("index");
   } catch (err) {
