@@ -36,7 +36,7 @@ app.use(express.json());
 //   })
 // );
 
-app.get("/", async (req, res) => {
+app.get("", async (req, res) => {
   try {
     return res.render("index");
   } catch (err) {
